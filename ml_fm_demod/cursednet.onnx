@@ -1,5 +1,5 @@
-pytorch2.3.1:Ëü
-Ô
+pytorch2.1.2:›œ
+Ç
 input
 onnx::Conv_79
 onnx::Conv_80 /Conv1/conv/conv.0/Conv_output_0/Conv1/conv/conv.0/Conv"Conv*
@@ -7,65 +7,65 @@
 group†*
 kernel_shape@†*
 pads@@†*
-strides@†2≤/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(306): _conv_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(310): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(43): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2≈/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(306): _conv_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(310): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(43): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-…
- /Conv1/conv/conv.0/Conv_output_0 /Conv1/conv/conv.2/Tanh_output_0/Conv1/conv/conv.2/Tanh"Tanh2„/usr/local/lib/python3.10/dist-packages/torch/nn/modules/activation.py(357): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(43): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+Æ
+ /Conv1/conv/conv.0/Conv_output_0 /Conv1/conv/conv.2/Tanh_output_0/Conv1/conv/conv.2/Tanh"Tanh2»/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/activation.py(356): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(43): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-ä
+ù
  /Conv1/conv/conv.2/Tanh_output_0
 onnx::Conv_82
 onnx::Conv_83 /Conv2/conv/conv.0/Conv_output_0/Conv2/conv/conv.0/Conv"Conv*
@@ -73,65 +73,65 @@
 group†*
 kernel_shape@†*
 pads@@†*
-strides@†2≤/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(306): _conv_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(310): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(44): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2≈/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(306): _conv_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(310): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(44): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-…
- /Conv2/conv/conv.0/Conv_output_0 /Conv2/conv/conv.2/Tanh_output_0/Conv2/conv/conv.2/Tanh"Tanh2„/usr/local/lib/python3.10/dist-packages/torch/nn/modules/activation.py(357): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(44): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+Æ
+ /Conv2/conv/conv.0/Conv_output_0 /Conv2/conv/conv.2/Tanh_output_0/Conv2/conv/conv.2/Tanh"Tanh2»/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/activation.py(356): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(44): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-ä
+ù
  /Conv2/conv/conv.2/Tanh_output_0
 onnx::Conv_85
 onnx::Conv_86 /Conv3/conv/conv.0/Conv_output_0/Conv3/conv/conv.0/Conv"Conv*
@@ -139,93 +139,92 @@
 group†*
 kernel_shape@†*
 pads@@†*
-strides@†2≤/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(306): _conv_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(310): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(45): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2≈/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(306): _conv_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(310): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(45): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-…
- /Conv3/conv/conv.0/Conv_output_0 /Conv3/conv/conv.2/Tanh_output_0/Conv3/conv/conv.2/Tanh"Tanh2„/usr/local/lib/python3.10/dist-packages/torch/nn/modules/activation.py(357): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(45): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+Æ
+ /Conv3/conv/conv.0/Conv_output_0 /Conv3/conv/conv.2/Tanh_output_0/Conv3/conv/conv.2/Tanh"Tanh2»/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/activation.py(356): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(45): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-®
+„
  /Conv3/conv/conv.2/Tanh_output_0/Maxpool1/MaxPool_output_0/Maxpool1/MaxPool"MaxPool*
-	ceil_mode †*
-	dilations@†*
+	ceil_mode †*
 kernel_shape@†*
 pads@ @ †*
-strides@†2Û/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py(710): _max_pool1d
-/usr/local/lib/python3.10/dist-packages/torch/_jit_internal.py(497): fn
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/pooling.py(91): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(47): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2¿/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/functional.py(705): _max_pool1d
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/_jit_internal.py(488): fn
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/pooling.py(92): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(47): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-Ñ
+ó
 /Maxpool1/MaxPool_output_0
 onnx::Conv_88
 onnx::Conv_89 /Conv4/conv/conv.0/Conv_output_0/Conv4/conv/conv.0/Conv"Conv*
@@ -233,65 +232,65 @@
 group†*
 kernel_shape@†*
 pads@@†*
-strides@†2≤/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(306): _conv_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(310): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(48): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2≈/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(306): _conv_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(310): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(48): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-…
- /Conv4/conv/conv.0/Conv_output_0 /Conv4/conv/conv.2/Tanh_output_0/Conv4/conv/conv.2/Tanh"Tanh2„/usr/local/lib/python3.10/dist-packages/torch/nn/modules/activation.py(357): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(48): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+Æ
+ /Conv4/conv/conv.0/Conv_output_0 /Conv4/conv/conv.2/Tanh_output_0/Conv4/conv/conv.2/Tanh"Tanh2»/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/activation.py(356): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(48): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-ä
+ù
  /Conv4/conv/conv.2/Tanh_output_0
 onnx::Conv_91
 onnx::Conv_92 /Conv5/conv/conv.0/Conv_output_0/Conv5/conv/conv.0/Conv"Conv*
@@ -299,93 +298,92 @@
 group†*
 kernel_shape@†*
 pads@@†*
-strides@†2≤/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(306): _conv_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(310): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(49): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2≈/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(306): _conv_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(310): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(49): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-…
- /Conv5/conv/conv.0/Conv_output_0 /Conv5/conv/conv.2/Tanh_output_0/Conv5/conv/conv.2/Tanh"Tanh2„/usr/local/lib/python3.10/dist-packages/torch/nn/modules/activation.py(357): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(49): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+Æ
+ /Conv5/conv/conv.0/Conv_output_0 /Conv5/conv/conv.2/Tanh_output_0/Conv5/conv/conv.2/Tanh"Tanh2»/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/activation.py(356): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(49): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-®
+„
  /Conv5/conv/conv.2/Tanh_output_0/Maxpool2/MaxPool_output_0/Maxpool2/MaxPool"MaxPool*
-	ceil_mode †*
-	dilations@†*
+	ceil_mode †*
 kernel_shape@†*
 pads@ @ †*
-strides@†2Û/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py(710): _max_pool1d
-/usr/local/lib/python3.10/dist-packages/torch/_jit_internal.py(497): fn
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/pooling.py(91): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(51): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2¿/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/functional.py(705): _max_pool1d
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/_jit_internal.py(488): fn
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/pooling.py(92): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(51): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-Ñ
+ó
 /Maxpool2/MaxPool_output_0
 onnx::Conv_94
 onnx::Conv_95 /Conv6/conv/conv.0/Conv_output_0/Conv6/conv/conv.0/Conv"Conv*
@@ -393,65 +391,65 @@
 group†*
 kernel_shape@†*
 pads@@†*
-strides@†2≤/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(306): _conv_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(310): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(52): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2≈/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(306): _conv_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(310): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(52): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-…
- /Conv6/conv/conv.0/Conv_output_0 /Conv6/conv/conv.2/Tanh_output_0/Conv6/conv/conv.2/Tanh"Tanh2„/usr/local/lib/python3.10/dist-packages/torch/nn/modules/activation.py(357): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(52): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+Æ
+ /Conv6/conv/conv.0/Conv_output_0 /Conv6/conv/conv.2/Tanh_output_0/Conv6/conv/conv.2/Tanh"Tanh2»/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/activation.py(356): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(52): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-ä
+ù
  /Conv6/conv/conv.2/Tanh_output_0
 onnx::Conv_97
 onnx::Conv_98 /Conv7/conv/conv.0/Conv_output_0/Conv7/conv/conv.0/Conv"Conv*
@@ -459,93 +457,92 @@
 group†*
 kernel_shape@†*
 pads@@†*
-strides@†2≤/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(306): _conv_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(310): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(53): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2≈/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(306): _conv_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(310): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(53): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-…
- /Conv7/conv/conv.0/Conv_output_0 /Conv7/conv/conv.2/Tanh_output_0/Conv7/conv/conv.2/Tanh"Tanh2„/usr/local/lib/python3.10/dist-packages/torch/nn/modules/activation.py(357): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py(217): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(15): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(53): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+Æ
+ /Conv7/conv/conv.0/Conv_output_0 /Conv7/conv/conv.2/Tanh_output_0/Conv7/conv/conv.2/Tanh"Tanh2»/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/activation.py(356): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/container.py(215): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(15): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(53): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-¨
+Á
  /Conv7/conv/conv.2/Tanh_output_0/Maxpool2_1/MaxPool_output_0/Maxpool2_1/MaxPool"MaxPool*
-	ceil_mode †*
-	dilations@†*
+	ceil_mode †*
 kernel_shape@†*
 pads@ @ †*
-strides@†2Û/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py(710): _max_pool1d
-/usr/local/lib/python3.10/dist-packages/torch/_jit_internal.py(497): fn
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/pooling.py(91): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(55): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2¿/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/functional.py(705): _max_pool1d
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/_jit_internal.py(488): fn
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/pooling.py(92): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(55): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-Â
+Ñ
 /Maxpool2_1/MaxPool_output_0
 Conv8.weight
 
@@ -554,48 +551,48 @@ Conv8.bias/Conv8/Conv_output_0/Conv8/Conv"Conv*
 group†*
 kernel_shape@†*
 pads@ @ †*
-strides@†2≠/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(306): _conv_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py(310): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(56): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+strides@†2Ã/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(306): _conv_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/conv.py(310): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(56): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
-ë
+Ç
 /Conv8/Conv_output_0output
-/tanh/Tanh"Tanh2ﬁ/usr/local/lib/python3.10/dist-packages/torch/nn/modules/activation.py(357): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/demos/model.py(57): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1522): _slow_forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(129): wrapper
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(138): forward
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1541): _call_impl
-/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py(1532): _wrapped_call_impl
-/usr/local/lib/python3.10/dist-packages/torch/jit/_trace.py(1310): _get_trace_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(914): _trace_and_get_graph_from_model
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1010): _create_jit_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1134): _model_to_graph
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(1612): _export
-/usr/local/lib/python3.10/dist-packages/torch/onnx/utils.py(516): export
-/demos/convert.py(18): <module>
+/tanh/Tanh"Tanh2œ/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/activation.py(356): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/model.py(57): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1508): _slow_forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(124): wrapper
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(133): forward
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1527): _call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/nn/modules/module.py(1518): _wrapped_call_impl
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/jit/_trace.py(1285): _get_trace_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(1596): _export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/lib/python3.11/site-packages/torch/onnx/utils.py(516): export
+/home/luigi/fun/DataScience/CursedNet/export_to_tensorrt/export.py(15): <module>
 
 main_graph* BConv8.weightJïÂ,?&nB?*B
 Conv8.biasJAÍº*öBonnx::Conv_79JÄ™7√éù-¬.P≠¡©'>P›|¬g’ˆ¡CH4¬ªxÇB˘|V¿BôAŸÓ∑¡æO5BùÕÅB àA8.Bæ≠¬À¡lAYî¬Ìº¬%,eB‰ÁBêû¬BLπÌ@»´¡ˇ‘ªBÉ}Bˆz;Bëäæ¬ÇB≤^^AÌ£Ø¬»5˛@¸ÚÉ@√üÍ_¬Èê˜¡∂Õ—BQYœ¬≠ú•AÎâBÛ∑B aÂAJ"AT?(=˝Aë8Cî
@@ -692,16 +689,14 @@ LΩ€Ë±Ωˇ|Ã<ﬂS’ΩËœ>†ÔºåÎ˝ΩG•èΩÌöÇ;Ûqr>€6=⁄5>È‘ß<ù}>ΩÅZâæ©Hë=˜*ØªÒãÛ=≈{∞Ωà≥Mæ\
 Ω*¡ºîÂÍºhˆ=<øá<’•3<∞⁄=\ºÉ=-„ˇ∫˚5ˇΩ'?ŸΩÉ´ΩC™†Ω3òª=£∫=øä‰;›®Ωòø‡ºaú@=\SΩ›=csL>µâæ^0)øÍ>e¬æô˜@Æ™>Q)(ø´ÁDø:/qæ 2Ç?‡IZøØøN˛◊ΩæœÊæˇ˙læ{çø[gÒ>´Ji=Ù‰ŸæÜüøß»ù?úºú>f8?gûMæÉU?r}x?pÁÇæ¡h4ø§i=?Êä£?Ê™´æ”æúŒÎ?Ì8?0â|?S¸7>1–¨>¥´ΩâZ?¥.ø∂õ?ñg„=AÉøµ\z>ÆæiøY¨ÏæXí—ææê5?|‹T='<¡º@·ΩrM‹∫ëƒÃ;ûÈº#,æÁ!ä=î®bΩ¬ˆ&ºN®™∫j˘∫Ω™µΩQãºÒ∏Ωˆj=ïoΩÅ™Ø="]>
 ˆ$=^)à>Ø‚'=S;&ºeÔ8=≈∫Ω_∫Ä<Û"•º^µÏΩeØö=ÂZΩh†Éª–24;Ad~<£+ΩÃÆÈ= x[=ñ°}Ωî»=∏6¿Ω¨<æ<H<eMÛΩó>=JE¸º≈àV<“>sæ~=Ω<®À÷Ω%©6Ω≠$=NQ˝=Ë§ì;ﬂUÖªÑ=ﬁ$C>ÃØΩåÔÅ=≈&<`≥∫≠¥`;té√=Ë<©…«=É£ZΩŸúã=8íªΩ{ΩÇæøáΩ⁄òæ’YΩP˙a<s∑HΩ _˙<>éº/±Ï<Ïh	>E]íΩL…ò=‚c;ìÇ:•ÿ^º≠Qi=∞›ıΩ2œeΩÜ-å=¿ΩÌ1ÿ=(>dC§ºk> öΩˆ€¢<ÆO∂ºFÿá>»º˛>€.ΩúzΩÑL¡=dRSºNΩ =∑%´Ω†ïºO'ıºúz(<R*∫ÇF5ºõ‡ÁΩïªzΩƒËº/üTΩ-wR= ⁄¡ºjœπΩ\=œ}πΩr√=•∑ó=¶ 8<∂∆Ãº_k•ºªäΩwç∫ÄX<1-˛ºézô<û6;<x≠‘º›d#=¿ZΩÃ÷.ºåVáΩÂ^<îÂd<.∏>ôÛB=◊ «<Ú÷óΩ5_=?Ï<]±)=Ë>ì<„ˆâΩ*5Bonnx::Conv_92J z◊;‡	=;CøæÏ¿ìæíç÷?@4˝Ω÷‘íΩÓzz=*öBonnx::Conv_94JÄSÕïΩŒ≈ºèΩP|ª;Àäπ∏Ÿ2ºz”äædhb=âÙFæõ¸Ñ>π;æ˙V†Ω¬îÀº§ô<;ìu>ji◊<∂Éæ√∫Kæ∑›ΩãÎa>éÍŒ=≈J>∞#⁄<Ì@k>+ô[>gE©>Éø£Á>âmWæπ≥Ω8m>cÿùΩ§•?Œ¨≈Ω∆$æÛV“øu5∂Ω—¨R;Î´Û>–Äæ~˛+>àBõæﬂ¨0>ñCΩiˆûºü ﬂæ∂W5>È˚IæÊÍá=°Ò=Ó(ËªÄ
 f=”ÂâºeF∫º8—9>Ï)ΩY^3æ∆1ÃΩ=|2ΩòΩ6‡´=§?Q<‹¨>†D»Ω8‰w<≥áæî◊∫=≈¥;Ûè4>GaïΩ»G=GG†æAFIΩ3,∞Ω≈Ç<∞yQΩ*<).ûæõûΩgæ’$Ï>Ç-*;«„eΩ‘2<òµÎº\ºÒß¶>≠Éæê˙É<êN©æay[>¿ΩˇPë>?=ã>5t4Ω*%Bonnx::Conv_95J…R<v€ø‡á°<FWå<*yBonnx::Conv_97J`°`Ô>◊?†<õ…ç>≤ƒÑ;ü≥‹ºíø/˜øI¿Ω4!	æÂá≈æyıæHâ~æ∫?÷>óær<+|á>≥⁄ô;Krºø¨Ôª
-›ø¿@+Ω=(Læ"Œ™æ°ªæ&sdæ*Bonnx::Conv_98JãløÉ€´øZ'
-input
-
-
-batch_size
+›ø¿@+Ω=(Læ"Œ™æ°ªæ&sdæ*Bonnx::Conv_98JãløÉ€´øZ
+input
+
+
 
-Ä–b(
-output
-
-
-batch_size
+Ä–b
+output
+
+
 
 Ä˙B

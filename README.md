@@ -13,3 +13,8 @@ $ docker run --rm -it \
   -v .:/demos \
   holoscan-scipyconf
 ```
+
+
+```
+trtexec --onnx=cursednet.onnx --saveEngine=cursednet.engine
+```

@@ -100,8 +100,21 @@ class PreProcessorOp(Operator):
         tensor = cp.zeros((1, 2, buffer_size), dtype=cp.float32)
         tensor[0, 0, :] = cp.real(sig)
         tensor[0, 1, :] = cp.imag(sig)
-        op_output.emit(tensor, "tensor")
-        
+        tensor = cp.ascontiguousarray(tensor)
+        op_output.emit(dict(rx_sig=tensor), "tensor")
+
+
+class PostProcessorOp(Operator):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def setup(self, spec: OperatorSpec):
+        spec.input("rx_sig")
+        spec.output("rx_sig")
+
+    def compute(self, op_input, op_output, context):
+        sig = op_input.receive("rx_sig")['rx_sig']
+        op_output.emit(cp.asarray(sig), "rx_sig")
 
 
 class DemodulateOp(Operator):
@@ -166,17 +179,19 @@ class NeuralFmDemod(Application):
                 "demod": ["rx_sig"],
             },
             model_path_map={
-                "demod": "./model_trt.engine",
+                "demod": "./cursednet.engine",
             },
             inference_map={
                 "demod": ["rx_sig"],
             },
         )
+        postprocessor = PostProcessorOp(self, name="postprocessor")
         sink = SDRSinkOp(self, name="sink")
 
         self.add_flow(src, preprocessor)
         self.add_flow(preprocessor, inference, {("tensor", "receivers")})
-        self.add_flow(inference, sink)
+        self.add_flow(inference, postprocessor)
+        self.add_flow(postprocessor, sink)
 
 
 class StandardFmDemod(Application):
