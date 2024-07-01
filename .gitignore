@@ -1,2 +1,5 @@
 .venv/
 basic_network_op/udp_tx_gnuradio.py
+__pycache__
+utils
+*.engine
